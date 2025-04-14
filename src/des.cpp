@@ -1,7 +1,7 @@
 #include "des.h"
 
 Subkeys des_key_schedule(const Key& key) {
-    // Implement DES key schedule (PC-1, shifts, PC-2)
+
     // Returns 16 subkeys, each 48 bits (6 bytes)
     Subkeys subkeys; // Placeholder
     return subkeys;
